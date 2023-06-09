@@ -1,0 +1,84 @@
+.tayoq{
+    border: 1px solid orange;
+    width: 10px;
+    height: 500px;
+    background-color: orange;
+    position: relative;
+}
+.kok{
+    border: 1px solid blue;
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+    border-top-right-radius: 90px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left:0px
+}
+.qizil1{
+    border: 1px solid reed;
+    width: 602px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    top: 102px;
+    left:0px
+}
+.oq{
+    border: 1px solid ;
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    top: 110px;
+    left:0px
+}
+.qizil{
+    border: 1px solid reed;
+    width: 602px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    left:0px
+    
+}
+.yashil{
+    border: 1px solid green;
+    width: 600px;
+    height: 100px;
+    background-color: green;
+    border-bottom-right-radius: 90px;
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    left:0px
+    
+}
+.bayroq{
+    background-color: white;
+    border: 1px solid;
+    width: 600px;
+    height: 322px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    animation-name: flag;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes flag {
+    from{
+    transform: translate(50px, 50%);
+    }
+    
+}
